@@ -1,6 +1,6 @@
 name: Leetcode
 on:
-  # Schedule updates (At minute 0 past every 12th hour)
+  # Schedule updates (At midnight on the 1st of every month)
   schedule: [{ cron: "0 0 1 * *" }]
   # Lines below let you run workflow manually with each commit
   workflow_dispatch:
